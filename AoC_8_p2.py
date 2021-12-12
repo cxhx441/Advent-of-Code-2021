@@ -1,3 +1,4 @@
+#TODO Refactor that algo for getting the digits/segments to including filtering based on the number of times the segments occurs (which is different depending on the segment)
 with open("AoC_8_input.txt") as f:
     lines = f.readlines()
 lines = [x[:-1] for x in lines]
