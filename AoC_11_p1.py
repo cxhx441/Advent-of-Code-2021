@@ -163,13 +163,13 @@ def increment_step(num_steps):
             print(f'WE DID IT IN {cur_step_num+1} steps!')
             break
     return flash_count
-for line in octopus:
-    print(line)
-print()
+# for line in octopus:
+#     print(line)
+# print()
 flash_count = increment_step(2000)
-for line in octopus:
-    print(line)
-print(f'flashcount {flash_count}')
+# for line in octopus:
+#     print(line)
+# print(f'flashcount {flash_count}')
 
 # step2_check = '8807476555 5089087054 8597889608 8485769600 8700908800 6600088989 6800005943 0000007456 9000000876 8700006848'
 # step1_check ='6594254334 3856965822 6375667284 7252447257 7468496589 5278635756 3287952832 7993992245 5957959665 6394862637'
