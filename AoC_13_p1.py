@@ -13,13 +13,6 @@ class Paper:
 
     def __str__(self):
         paper_list = [['.']*self.get_size()[0] for _ in range(self.get_size()[1])]
-        # row = list()
-        # for _ in range(self.get_size()[0]):
-        #     row.append(".")
-
-        # paper_list = list()
-        # for _ in range(self.get_size()[1]):
-        #     paper_list.append(row.copy())
 
         for coord in self.coords:
             paper_list[coord[0]][coord[1]] = '#'
